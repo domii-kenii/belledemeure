@@ -1,0 +1,83 @@
+.navbar-fixed-top{
+	background-image: linear-gradient(white, #E6E6FA);
+	min-height: 100px;
+	border-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #ab1e00;
+}
+
+.navbar-collapse > ul > li > a{
+	color: #ab1e00;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+
+}
+.navbar-collapse > ul > li > a:hover{
+background-color: #ab1e00;
+color: white;
+}
+
+.navbar-collapse > ul > .open > a:hover{
+background-color: #ab1e00;
+color: white;
+}
+
+.navbar-collapse > ul > .open > ul {
+
+border-radius: 3px;
+}
+
+.navbar-collapse > ul > .open > ul > li > a:hover{
+background-color: #ab1e00;
+color: white;
+border-radius: 3px;
+}
+
+.col-lg-12 > .page-header{
+	color: #ab1e00;
+}
+.navbar-right{
+ padding-top: 15px;
+}
+.navbar-right > li > a{
+	border-radius: 3px;
+}
+.page-header{
+padding-top: 15px;
+color: #ab1e00;
+}
+.open > a:hover{
+background-color: white;
+color: #ab1e00;
+}
+
+.panel-body > .btn-default:hover{
+background-color: #ab1e00;
+color: white;
+border: none;
+}
+.dropdown  > .dropdown-toggle:active{
+background-color: white;
+color: #ab1e00
+}
+
+.mypanel{
+min-height: 300px;
+}
+
+.mypanel > .panel-body > a{
+margin-bottom: 10px
+}
+
+.mynavtab > li > a{
+color: #7c7c7c;
+}
+.mynavtab > li > a:hover{
+color: #ab1e00;
+}
+.mynavtab > .active > a > h4{
+color: #d52500;
+background-color: white;
+text-decoration: underline;
+}
